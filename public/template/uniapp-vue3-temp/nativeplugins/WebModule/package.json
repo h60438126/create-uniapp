@@ -1,7 +1,7 @@
 {
 	"name": "YKS-WebModule",
 	"id": "WebModule",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "native web module",
 	"_dp_type": "nativeplugin",
 	"_dp_nativeplugin": {

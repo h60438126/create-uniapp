@@ -18,16 +18,15 @@
 - [ ] 检查minSdkVersion 21和targetSdkVersion 33
 - [ ] 检查nativeResources/android/res/values/strings.xml文件的Facebook内容（仅a面的时候，可以留空）
 - [ ] 检查AndroidManifest.xml 中的Facebook/adjust/appsflyter key
+- [ ] 检查webModule插件版本
 - [ ] 检查本地插件package.json文件中是否已加入"hooksClass": "com.yks.web_module.WebModuleProxy”,（仅有a面的时候可以手动删除该行）
 - [ ] 检查adjust env是否true（adjust env 的true是正式环境，false是沙盒环境）
+- [ ] 检查appsflyerDebug是否false（true为启动debug模式，false为关闭）
 - [ ] 每次重新提审要改内部版本号（首次跳过）
-
-- [ ] 检查app权限是否已去掉无用的（一般仅要以下两条）
+- [ ] 检查app权限是否已去掉无用的
 ```json
 "permissions" : [
 	"<uses-permission android:name=\"android.permission.INTERNET\"/>",
-	"<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
-	"<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>"
 ]
 ```
 
