@@ -1,4 +1,8 @@
 <resources>
-    <string name="facebook_app_id"></string>
-    <string name="facebook_client_token"></string>
+    <string name="facebook_app_id">xxxxx xxxxx xxxxx 例子：967685811041844</string>
+    <string name="facebook_client_token">xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx 例子：4f2c842ad5664664ec7dcb5874159eb7</string>
+    <string name="result">aa,bb,cc</string>
+	<string name="aa">1为adjust，2为appsflyer</string>
+	<string name="bb">adjust/appsflyer的token 例子：4nz0yqz0wnwg</string>
+	<string name="cc">0，adjust开启沙盒，appsflyer开启debug模式。1，反之</string>
 </resources>

@@ -1,29 +1,32 @@
 {
-	"name": "YKS-WebModule",
-	"id": "WebModule",
-	"version": "1.0.3",
-	"description": "native web module",
-	"_dp_type": "nativeplugin",
-	"_dp_nativeplugin": {
-		"android": {
-			"plugins": [{
-				"type": "module",
-				"name": "WebModule",
-				"class": "com.yks.web_module.WebModule"
-			}],
-			"integrateType": "aar",
-			"dependencies": [
-				"com.facebook.fresco:fresco:1.13.0",
-				"org.nanohttpd:nanohttpd:2.3.1",
-				"org.nanohttpd:nanohttpd-webserver:2.3.1",
-				"com.adjust.sdk:adjust-android:4.33.4",
-				"com.adjust.sdk:adjust-android-webbridge:4.33.4",
-				"com.google.android.gms:play-services-ads-identifier:18.0.1",
-				"com.appsflyer:af-android-sdk:6.9.0",
-				"com.android.installreferrer:installreferrer:2.2",
-				"com.facebook.android:facebook-android-sdk:latest.release"
-			],
-			"minSdkVersion": 16
-		}
-	}
+  "name": "YKS-WebModule",
+  "id": "WebModule",
+  "version": "1.0.4",
+  "description": "native web module",
+  "_dp_type": "nativeplugin",
+  "_dp_nativeplugin": {
+    "android": {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "WebModule",
+          "class": "com.yks.web_module.WebModule"
+        }
+      ],
+      "hooksClass": "com.yks.web_module.WebModuleProxy",
+      "integrateType": "aar",
+      "dependencies": [
+        "com.facebook.fresco:fresco:1.13.0",
+        "org.nanohttpd:nanohttpd:2.3.1",
+        "org.nanohttpd:nanohttpd-webserver:2.3.1",
+        "com.adjust.sdk:adjust-android:4.33.4",
+        "com.adjust.sdk:adjust-android-webbridge:4.33.4",
+        "com.google.android.gms:play-services-ads-identifier:18.0.1",
+        "com.appsflyer:af-android-sdk:6.9.0",
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.facebook.android:facebook-android-sdk:latest.release"
+      ],
+      "minSdkVersion": 16
+    }
+  }
 }

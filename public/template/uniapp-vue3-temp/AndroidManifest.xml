@@ -4,15 +4,8 @@
 	<!--permissions-->
 
 	<application>
-		<!--meta-data-->
-		<meta-data android:name="adjust" android:value="" />
-		<meta-data android:name="adjustEnv" android:value="false" />
-		<meta-data android:name="appsflyerDebug" android:value="false" />
-		<meta-data android:name="appsflyer" android:value="" />
-		
 		<!-- Facebook -->
 		<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
 		<meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
-
 	</application>
 </manifest>
