@@ -1,16 +1,36 @@
 {
-  "name": "create-uniapp",
+  "name": "@ultimate-mario/create-uniapp",
   "version": "1.1.4",
-  "type": "module",
   "author": "Mario",
   "license": "ISC",
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.mjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h60438126/create-uniapp",
+    "directory": "创建 uniapp 的脚手架"
+  },
+  "keywords": [
+    "uniapp",
+    "rollup",
+    "node",
+    "cli"
+  ],
+  "homepage": "https://github.com/h60438126/create-uniapp",
   "bin": {
     "create-uniapp": "./bin/create-uniapp.js"
   },
   "files": [
-    "index.js",
-    "public/*",
-    "dist"
+    "dist",
+    "bin"
   ],
   "scripts": {
     "dev": "rimraf dist && rollup --config rollup.config.ts --configPlugin typescript -w",
