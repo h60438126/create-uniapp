@@ -4,13 +4,13 @@ import path from "node:path";
 import { mkdir, copyFile, rm, stat, readdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 
-const version = "1.2.2";
+const version = "1.2.5";
 console.log(`当前脚本版本：${version}`);
 
 const root = process.cwd();
 const templateDir = path.resolve(
   fileURLToPath(import.meta.url),
-  "../..",
+  "../",
   "public/template"
 );
 
