@@ -1,6 +1,7 @@
 {
   "name": "@ultimate-mario/create-uniapp",
-  "version": "1.1.4",
+  "version": "1.2.0",
+  "directory": "创建 uniapp 的脚手架",
   "author": "Mario",
   "license": "ISC",
   "type": "module",
@@ -15,8 +16,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/h60438126/create-uniapp",
-    "directory": "创建 uniapp 的脚手架"
+    "url": "https://github.com/h60438126/create-uniapp"
   },
   "keywords": [
     "uniapp",
